@@ -1,0 +1,26 @@
+run
+exit
+run
+set scalaJSUseRhino in Global := false
+run
+fastOptJS
+reload
+fastOptJS
+exit
+fastOptJS
+exit
+run
+fastOptJS
+reload
+exit
+fastOptJS
+gen-ensime
+relod
+reload
+fastOptJS
+run
+fastOptJS
+reload
+fastOptJS
+exit
+fastOptJS
