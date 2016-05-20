@@ -30,41 +30,45 @@
 
   <style>
     html {
-      background: url(logo.png) #000;
-      background-repeat: no-repeat;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
+    background: url(logo.png) #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     }
 
     body {
-      padding: 0;
-      margin: 0;
-      background: #000;
+    padding: 0;
+    margin: 0;
+    background: #000;
+    display:block;
+    overflow:hidden;
     }
 
     body,
     canvas, div {
-      -moz-user-select: none;
-      -webkit-user-select: none;
-      -ms-user-select: none;
-      -khtml-user-select: none;
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-    .slice9 {
-      border-image: url(path/to/your/image.jpg) 20 20 20 20 repeat;
-      border-width: 20px 20px 20px 20px;
-      border-image-width: 20px 20px 20px 20px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
   </style>
 </head>
 
-<body><canvas id="shmupwarz" width="416" height="624"></canvas>
-<a href="javascript:(function(){var script=document.createElement('script');script.onload=function(){var stats=new Stats();document.body.appendChild(stats.dom);requestAnimationFrame(function loop(){stats.update();requestAnimationFrame(loop)});};script.src='//rawgit.com/mrdoob/stats.js/master/build/stats.min.js';document.head.appendChild(script);})()">stats</a>
-</body>
-<!--<script type="text/javascript" src="./target/scala-2.11/entitas-demo-fastopt.js"></script>-->
-<script type="text/javascript" src="./target/scala-2.11/entitas-demo-opt.js"></script>
+<body></body>
+<script type='application/javascript' src='js/fastclick.js'></script>
+<script>
+if ('addEventListener' in document) {
+  document.addEventListener('DOMContentLoaded', function() {
+      FastClick.attach(document.body);
+  }, false);
+}
+</script>
+<!--<a href="javascript:(function(){var script=document.createElement('script');script.onload=function(){var stats=new Stats();document.body.appendChild(stats.dom);requestAnimationFrame(function loop(){stats.update();requestAnimationFrame(loop)});};script.src='//rawgit.com/mrdoob/stats.js/master/build/stats.min.js';document.head.appendChild(script);})()">stats</a>-->
+<!--<script type="text/javascript" src="js/entitas-demo-fastopt.js"></script>-->
+<script type="text/javascript" src="js/entitas-demo-opt.js"></script>
 <script type="text/javascript" src="js/createjs-2015.11.26.min.js"></script>
 <script type="text/javascript">
 com.darkoverlordofdata.entitas.demo.MainApp().main();
