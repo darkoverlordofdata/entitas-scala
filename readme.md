@@ -22,3 +22,11 @@ use entitas cli to generate empty components & extensions
 
 
 
+### Disambiguation
+
+There are 2 repo's
+https://github.com/darkoverlordofdata/entitas-scala-js
+https://github.com/darkoverlordofdata/entitas-scala
+
+The 1st, js version uses sbt and thus is the source version for maven
+The 2nd uses gradle, and the entitas folder is just a copy

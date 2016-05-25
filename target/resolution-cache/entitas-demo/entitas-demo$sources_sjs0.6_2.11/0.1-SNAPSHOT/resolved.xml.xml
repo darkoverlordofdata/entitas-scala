@@ -4,7 +4,7 @@
 		module="entitas-demo$sources_sjs0.6_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160518093858"
+		publication="20160520131216"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

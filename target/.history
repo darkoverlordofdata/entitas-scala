@@ -24,3 +24,5 @@ reload
 fastOptJS
 exit
 fastOptJS
+ publishLocal
+exit

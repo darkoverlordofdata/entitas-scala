@@ -1,19 +1,19 @@
-[0m[[0minfo[0m] [0mFull optimizing /home/bruce/sbt/test/target/scala-2.11/entitas-demo-opt.js[0m
-[0m[[0mdebug[0m] [0mLinker: Compute reachability: 328649 us[0m
-[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 571025 us[0m
-[0m[[0mdebug[0m] [0mBasic Linking: 919377 us[0m
+[0m[[0minfo[0m] [0mFull optimizing /home/bruce/Git/entitas-scala-js/target/scala-2.11/entitas-demo-opt.js[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 358682 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 681113 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 1060447 us[0m
 [0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: true[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 420755 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 3805 methods.[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 1356039 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: 1809372 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 108792 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 27622 us[0m
-[0m[[0mdebug[0m] [0mRefiner: 139952 us[0m
-[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 433[0m
-[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 2010[0m
-[0m[[0mdebug[0m] [0mEmitter (create Closure trees): 1210483 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 430927 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 3842 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 1457582 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 1917982 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 91837 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 27356 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 121968 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 434[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 2026[0m
+[0m[[0mdebug[0m] [0mEmitter (create Closure trees): 1165048 us[0m
 [0m[[0minfo[0m] [0mClosure: 0 error(s), 0 warning(s)[0m
-[0m[[0mdebug[0m] [0mClosure: Compiler pass: 10782299 us[0m
-[0m[[0mdebug[0m] [0mClosure: Write result: 988537 us[0m
-[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 0 -- invalidated: 281 -- trees read: 556[0m
+[0m[[0mdebug[0m] [0mClosure: Compiler pass: 10625965 us[0m
+[0m[[0mdebug[0m] [0mClosure: Write result: 939813 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 0 -- invalidated: 280 -- trees read: 562[0m

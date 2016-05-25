@@ -1,0 +1,27 @@
+{
+  "name": "entitas-scala.js",
+  "version": "0.0.1",
+  "description": "Entitas ECS / Scala.js",
+  "main": "index.js",
+  "scripts": {
+    "publish": "gulp publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkoverlordofdata/entitas-scala-js.git"
+  },
+  "author": "darkoverlordofdata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkoverlordofdata/entitas-scala-js/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-manifest": "0.0.7",
+    "gulp-shell": "^0.4.2",
+    "gulp-webserver": "^0.9.1"
+  },
+  "homepage": "https://github.com/darkoverlordofdata/entitas-scala-js#readme"
+}
