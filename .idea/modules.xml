@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entitas-scala-js.iml" filepath="$PROJECT_DIR$/.idea/modules/entitas-scala-js.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entitas-scala-js-build.iml" filepath="$PROJECT_DIR$/.idea/modules/entitas-scala-js-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entitas-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/entitas-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entitas-scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/entitas-scala-build.iml" />
     </modules>
   </component>
 </project>
