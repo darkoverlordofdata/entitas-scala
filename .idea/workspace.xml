@@ -2,158 +2,228 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c67b821-f8cf-4c3d-a7e1-9cd9a1a368ff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/awt/BorderLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/awt/BufferCapabilities.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/awt/Component.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/awt/image/BandCombineOp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/awt/image/BandedSampleModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/awt/image/BufferStrategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/awt/image/BufferedImageOp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/awt/print/Book.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/Boolean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/BootstrapMethodError.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/Byte.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/Character.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/SecurityManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/StackTraceElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/StrictMath.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/String.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/StringBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/SuppressWarnings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/lang/System.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/net/BindException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/net/ServerSocket.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/java/net/SocketImplFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/javax/sound/sampled/BooleanControl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/javax/swing/BorderFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/javax/swing/Box.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/javax/swing/text/BoxView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/javax/swing/text/StyledEditorKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/javax/swing/text/html/StyleSheet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/org/scalajs/jquery/JQuery.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/org/scalajs/jquery/package.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/scala/Boolean.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/scala/Predef.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/scala/Unit.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/scala/beans/BooleanBeanProperty.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/scala/math/Ordering.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/scala/scalajs/js/Array.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/scala/scalajs/js/JSApp.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/scala/scalajs/js/annotation/JSExport.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/dep-src/source-jars/scala/sys/BooleanProp.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/ensime.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14.fdt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14.fdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14.fnm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14.nvd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14.nvm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14_Lucene41_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14_Lucene41_0.pos" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14_Lucene41_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_14_Lucene41_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_15.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_15.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_15.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_16.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_16.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_16.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_17.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_17.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_17.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_18.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_18.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_18.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_19.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_19.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_19.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_1a.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_1a.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_1a.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_1b.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_1b.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/_1b.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/segments.gen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/segments_16" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/index-1.2/write.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/server.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/sql-1.2/db.mv.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/entitas_0_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/entitas_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/entitas-scala-js-build.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/entitas-scala-js.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MainScene.dt.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/hud.fnt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/hud_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/normal.fnt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/normal_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/freetypefonts/Arial.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/freetypefonts/OpenDyslexic-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/freetypefonts/TitanOne-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/freetypefonts/skranji.bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/freetypefonts/skranji.regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/orig/pack.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/orig/pack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/orig/pack2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/orig/sprite_animations/explosion/explosion.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/orig/sprite_animations/explosion/explosion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/orig/sprite_animations/minePack/minePack.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/orig/sprite_animations/minePack/minePack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/particles/bigFire" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/particles/blood" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/particles/particles" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/particles/portalIn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/particles/portalOut" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/particles/pulse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/project.dt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scenes/LeaderboardScene.dt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scenes/MainScene.dt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scenes/MenuScene.dt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scenes/OptionsScene.dt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/asplode.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/asplode.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/pew.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/pew.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/smallasplode.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/smallasplode.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/spritesheet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/createjs-2015.11.26.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/entitas-demo-fastopt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/entitas-demo-fastopt.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/entitas-demo-jsdeps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/entitas-demo-jsdeps.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/entitas-demo-opt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/entitas-demo-opt.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/stats.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project.dt.json" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.sbt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buildjs.sbt.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_js_scalajs_dom_sjs0_6_2_11_0_9_0_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_js_scalajs_library_2_11_0_6_9_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_8_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/entitas-demo/entitas-demo$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/entitas-demo/entitas-demo$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/entitas-demo/entitas-demo_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/entitas-demo/entitas-demo_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/org.scala-sbt.temp/temp-module-750703454be73072ce64f1c215ff85550284ae5b/0.13.11/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/org.scala-sbt.temp/temp-module-750703454be73072ce64f1c215ff85550284ae5b/0.13.11/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-ensime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-phantom-js-jetty.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo$sources_sjs0.6_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-ensime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-phantom-js-jetty.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/entitas-demo-entitas-demo_sjs0.6_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/org.scala-sbt.temp-temp-module-750703454be73072ce64f1c215ff85550284ae5b-component.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-ensime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-phantom-js-jetty.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_javadoc_sjs0.6_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-ensime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-phantom-js-jetty.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial$sources_sjs0.6_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-ensime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-phantom-js-jetty.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/scala-js-tutorial-scala-js-tutorial_sjs0.6_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/scala-js-tutorial/scala-js-tutorial$sources_javadoc_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/scala-js-tutorial/scala-js-tutorial$sources_javadoc_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/scala-js-tutorial/scala-js-tutorial$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/scala-js-tutorial/scala-js-tutorial$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/scala-js-tutorial/scala-js-tutorial_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/scala-js-tutorial/scala-js-tutorial_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/demo/GeneratedComponentsz.zscala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/entitas-demo-fastopt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/entitas-demo-fastopt.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/entitas-demo-jsdeps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/entitas-demo-jsdeps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/entitas-demo-opt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/entitas-demo-opt.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/package-min-js-deps/in-cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/package-min-js-deps/out-cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/sjsirFilesOnClasspath/data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/fastOptJS/$global/streams/in-cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/fastOptJS/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/fastOptJS/$global/streams/out-cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/fullClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/fullOptJS/$global/streams/in-cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/fullOptJS/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/fullOptJS/$global/streams/out-cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/loadedJSEnv/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ComponentReplacedArgs.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ComponentReplacedArgs.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Entity.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Entity.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityAlreadyHasComponentException.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityAlreadyHasComponentException.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityChangedArgs.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityChangedArgs.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityDoesNotHaveComponentException.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityDoesNotHaveComponentException.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityIsAlreadyReleasedException.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityIsAlreadyReleasedException.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityIsNotDestroyedException.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityIsNotDestroyedException.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityIsNotEnabledException.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityIsNotEnabledException.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityReleasedArgs.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EntityReleasedArgs.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Event.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Event.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EventArgs.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/EventArgs.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Group.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Group.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupChangedArgs.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupChangedArgs.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$EnumVal.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$EnumVal.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$OnEntityAdded$.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$OnEntityAdded$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$OnEntityAddedOrRemoved$.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$OnEntityAddedOrRemoved$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$OnEntityRemoved$.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupEventType$OnEntityRemoved$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupObserver.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupObserver.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupObserverException.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupObserverException.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupUpdatedArgs.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/GroupUpdatedArgs.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IAllOfMatcher.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IAllOfMatcher.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IAnyOfMatcher.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IAnyOfMatcher.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IClearReactiveSystem.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IClearReactiveSystem.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IComponent.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IComponent.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ICompoundMatcher.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ICompoundMatcher.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IEnsureComponents.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IEnsureComponents.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IExcludeComponents.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IExcludeComponents.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IExecuteSystem.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IExecuteSystem.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IInitializeSystem.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IInitializeSystem.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IMatcher.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IMatcher.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IMultiReactiveSystem.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IMultiReactiveSystem.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/INoneOfMatcher.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/INoneOfMatcher.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IReactiveExecuteSystem.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IReactiveExecuteSystem.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IReactiveSystem.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/IReactiveSystem.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ISetPool.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ISetPool.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ISystem.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ISystem.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Matcher$.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Matcher$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Matcher.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Matcher.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/MatcherException.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/MatcherException.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Pool$$anonfun$2.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Pool$$anonfun$2.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Pool$$anonfun$3.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Pool$$anonfun$3.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Pool$.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Pool$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Pool.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Pool.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/PoolDoesNotContainEntityException.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/PoolDoesNotContainEntityException.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/PoolEntityChangedArgs.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/PoolEntityChangedArgs.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/PoolGroupChangedArgs.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/PoolGroupChangedArgs.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ReactiveSystem.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/ReactiveSystem.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/SingleEntityException.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/SingleEntityException.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Systems.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Systems.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/TriggerOnEvent.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/TriggerOnEvent.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Version$.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/darkoverlordofdata/entitas/Version$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/JS_DEPENDENCIES" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/JS_DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="Entitas.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/js/target/" />
+    <ignored path="$PROJECT_DIR$/jvm/target/" />
+    <ignored path="$PROJECT_DIR$/js/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/js/project/target/" />
+    <ignored path="$PROJECT_DIR$/jvm/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/jvm/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,16 +241,43 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Entitas" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="buildjs.sbt.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buildjs.sbt.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5107527">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sbt.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt.txt">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -206,6 +303,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/buildjs.sbt.txt" />
+        <option value="$PROJECT_DIR$/build.sbt.txt" />
       </list>
     </option>
   </component>
@@ -222,7 +322,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -240,6 +340,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,16 +361,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entitas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entitas-scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -573,7 +692,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1464214503456" />
+    <option name="lastUpdateTimestamp" value="1464233553398" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -619,45 +738,83 @@
       <option name="number" value="Default" />
       <updated>1464214465899</updated>
     </task>
+    <task id="LOCAL-00001" summary="daily">
+      <created>1464214769786</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1464214769786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1368" height="739" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="daily" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/buildjs.sbt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildjs.sbt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildjs.sbt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.663286">
@@ -666,10 +823,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/darkoverlordofdata/entitas/Entity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.205986">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildjs.sbt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5107527">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

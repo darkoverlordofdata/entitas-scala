@@ -1,530 +1,417 @@
-[info] Updating {file:/home/bruce/Git/entitas-scala/}entitas-scala...
-[debug] :: resolving dependencies :: com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1
-[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty, ensime-internal]
-[debug] 	validate = true
-[debug] 	refresh = false
-[debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.7 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
-[debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
-[debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[info] Resolving org.scala-js#scalajs-library_2.11;0.6.9 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.9 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.9
-[debug] 	found org.scala-js#scalajs-library_2.11;0.6.9 in sbt-chain
-[debug] 	[0.6.9] org.scala-js#scalajs-library_2.11;0.6.9
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
-[debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
-[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->runtime]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->runtime]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0
-[debug] 	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 in sbt-chain
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [runtime]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [test]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [runtime]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [provided]
-[debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [optional]
-[debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [compile-internal]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [optional]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [provided]
-[debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [runtime-internal]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [runtime]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [optional]
-[debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [test-internal]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [test]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [runtime]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [optional]
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [provided]
-[debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [plugin]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-compiler_2.11.7;0.6.9 [plugin->default(compile)]
-[info] Resolving org.scala-js#scalajs-compiler_2.11.7;0.6.9 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.7;0.6.9 {plugin=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-compiler_2.11.7;0.6.9
-[debug] 	found org.scala-js#scalajs-compiler_2.11.7;0.6.9 in sbt-chain
-[debug] 	[0.6.9] org.scala-js#scalajs-compiler_2.11.7;0.6.9
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-compiler_2.11.7;0.6.9 [plugin->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-compiler_2.11.7;0.6.9 [plugin->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [compile->master(compile)]
-[info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
-[debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
-[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
-[debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
-[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
-[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [compile->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-js#scalajs-compiler_2.11.7;0.6.9 [plugin->master]
-[debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [sources]
-[debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [docs]
-[debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [pom]
-[debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [scala-tool]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)]
-[info] Resolving jline#jline;2.12.1 ...
-[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
-[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
-[debug] 	found jline#jline;2.12.1 in sbt-chain
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->default]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)]
-[debug] resolving dependencies for configuration 'phantom-js-jetty'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [phantom-js-jetty]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
-[info] Resolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
-[debug] 	found org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 in sbt-chain
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)]
-[info] Resolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.16.v20140903
-[debug] 	found org.eclipse.jetty#jetty-util;8.1.16.v20140903 in sbt-chain
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->master(compile)]
-[info] Resolving org.eclipse.jetty#jetty-io;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.16.v20140903
-[debug] 	found org.eclipse.jetty#jetty-io;8.1.16.v20140903 in sbt-chain
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->master(compile)]
-[info] Resolving org.eclipse.jetty#jetty-http;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.16.v20140903
-[debug] 	found org.eclipse.jetty#jetty-http;8.1.16.v20140903 in sbt-chain
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->master(compile)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
-[info] Resolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.16.v20140903
-[debug] 	found org.eclipse.jetty#jetty-server;8.1.16.v20140903 in sbt-chain
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(compile)]
-[info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
-[debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->master(compile)]
-[info] Resolving org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
-[debug] 	found org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 in sbt-chain
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->master(compile)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [runtime->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [runtime->compile]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)]
-[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->master]
-[debug] resolving dependencies for configuration 'ensime-internal'
-[debug] == resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 [ensime-internal]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.7 [ensime-internal->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.7 [ensime-internal->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.7 [ensime-internal->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.7 [ensime-internal->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [ensime-internal->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [ensime-internal->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [ensime-internal->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-library;2.11.7 [ensime-internal->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.7 [ensime-internal->default(compile)]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.7 [ensime-internal->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.7 [ensime-internal->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.7 [ensime-internal->master]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scalap;2.11.7 [ensime-internal->default(compile)]
-[info] Resolving org.scala-lang#scalap;2.11.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.11.7 {ensime-internal=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.11.7
-[debug] 	found org.scala-lang#scalap;2.11.7 in sbt-chain
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scalap;2.11.7 [ensime-internal->runtime]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scalap;2.11.7 [ensime-internal->compile]
-[debug] == resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1->org.scala-lang#scalap;2.11.7 [ensime-internal->master]
-[debug] 	resolved ivy file produced in cache
-[debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.9!scalajs-library_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0!scalajs-dom_sjs0.6_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.7;0.6.9!scalajs-compiler_2.11.7.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.11.7!scalap.jar
-[debug] :: resolution report :: resolve 1053ms :: artifacts dl 32ms
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 compile produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-compile.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 runtime produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-runtime.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 test produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-test.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 provided produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-provided.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 optional produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-optional.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 compile-internal produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-compile-internal.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 runtime-internal produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-runtime-internal.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 test-internal produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-test-internal.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 plugin produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-plugin.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 sources produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-sources.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 docs produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-docs.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 pom produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-pom.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 scala-tool produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-scala-tool.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 phantom-js-jetty produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-phantom-js-jetty.xml
-[debug] 	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.1 ensime-internal produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-ensime-internal.xml
-[debug] 	resolve done (1053ms resolve - 32ms download)
-[info] Done updating.
-[warn] Scala version was updated by one of library dependencies:
-[warn] 	* org.scala-lang:scala-library:2.11.7 -> 2.11.8
-[warn] To force scalaVersion, add the following:
-[warn] 	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }
-[warn] Run 'evicted' to see detailed eviction warnings
+[0m[[0minfo[0m] [0mUpdating {file:/home/bruce/Git/entitas-scala/}entitas-scala...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty, ensime-internal][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.7 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-js#scalajs-library_2.11;0.6.9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.9 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.9[0m
+[0m[[0mdebug[0m] [0m	found org.scala-js#scalajs-library_2.11;0.6.9 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[0.6.9] org.scala-js#scalajs-library_2.11;0.6.9[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-library_2.11;0.6.9->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.7;0.6.9 [plugin->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-js#scalajs-compiler_2.11.7;0.6.9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.7;0.6.9 {plugin=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-js#scalajs-compiler_2.11.7;0.6.9[0m
+[0m[[0mdebug[0m] [0m	found org.scala-js#scalajs-compiler_2.11.7;0.6.9 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[0.6.9] org.scala-js#scalajs-compiler_2.11.7;0.6.9[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.7;0.6.9 [plugin->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.7;0.6.9 [plugin->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-compiler;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.9->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.7;0.6.9 [plugin->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'phantom-js-jetty'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [phantom-js-jetty][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.16.v20140903[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-util;8.1.16.v20140903 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-io;8.1.16.v20140903 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.16.v20140903[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-io;8.1.16.v20140903 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-http;8.1.16.v20140903 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.16.v20140903[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-http;8.1.16.v20140903 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.16.v20140903[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-server;8.1.16.v20140903 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'ensime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT [ensime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [ensime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [ensime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [ensime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [ensime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [ensime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [ensime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [ensime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [ensime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [ensime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [ensime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [ensime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [ensime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scalap;2.11.7 [ensime-internal->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.11.7 {ensime-internal=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scalap;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scalap;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scalap;2.11.7 [ensime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scalap;2.11.7 [ensime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT->org.scala-lang#scalap;2.11.7 [ensime-internal->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.9!scalajs-library_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.7;0.6.9!scalajs-compiler_2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.11.7!scalap.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 384ms :: artifacts dl 9ms[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT compile produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT runtime produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT test produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT provided produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT optional produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT compile-internal produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT runtime-internal produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT test-internal produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT plugin produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT sources produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT docs produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT pom produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT scala-tool produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT phantom-js-jetty produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-phantom-js-jetty.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.darkoverlordofdata#entitas_sjs0.6_2.11;0.0.0-SNAPSHOT ensime-internal produced in /home/bruce/Git/entitas-scala/target/resolution-cache/reports/com.darkoverlordofdata-entitas_sjs0.6_2.11-ensime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (384ms resolve - 9ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
+[0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:2.11.7 -> 2.11.8[0m
+[0m[[33mwarn[0m] [0mTo force scalaVersion, add the following:[0m
+[0m[[33mwarn[0m] [0m	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }[0m
+[0m[[33mwarn[0m] [0mRun 'evicted' to see detailed eviction warnings[0m

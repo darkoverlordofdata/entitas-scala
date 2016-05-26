@@ -1,3 +1,4 @@
+// scala.js build
 scalaJSUseRhino in Global := false
 
 enablePlugins(ScalaJSPlugin)

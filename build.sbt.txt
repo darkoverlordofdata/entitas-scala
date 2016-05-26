@@ -1,7 +1,4 @@
-scalaJSUseRhino in Global := false
-
-enablePlugins(ScalaJSPlugin)
-
+// jvm build
 name := "Entitas"
 organization :=  "com.darkoverlordofdata"
 version := "0.0.0-SNAPSHOT"

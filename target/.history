@@ -26,3 +26,42 @@ exit
 fastOptJS
  publishLocal
 exit
+build
+compile
+clean
+compile
+ publishLocal
+publishSigned
+ publishLocal
+exit
+compile
+clean
+clean-files
+compile
+cleab
+clean
+clean-files
+compile
+build
+ecsJS/run
+exit
+compile
+publishLocal
+ecsJVM/run
+run ecsJVM
+clean
+clean-files
+reload
+exit
+compile
+exit
+clean
+clean-files
+compile
+publishLocal
+exit
+clean
+clean-files
+compile
+publishLocal
+publishSigned
